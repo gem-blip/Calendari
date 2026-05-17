@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calendari</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="starfield" aria-hidden="true">
+    <span class="star star-1"></span>
+    <span class="star star-2"></span>
+    <span class="star star-3"></span>
+    <span class="star star-4"></span>
+    <span class="star star-5"></span>
+    <span class="star star-6"></span>
+    <span class="star star-7"></span>
+    <span class="star star-8"></span>
+    <span class="star star-9"></span>
+    <span class="star star-10"></span>
+    <span class="star star-11"></span>
+    <span class="star star-12"></span>
+  </div>
+  <main class="page-shell">
+    <section class="hero">
+      <h1>CALENDARI</h1>
+      <button class="instructions-button" type="button">Instruccions</button>
+    </section>
+
+    <section class="envelope-grid" aria-label="Sobres con mensajes">
+      <button class="envelope" data-index="0" aria-label="Abrir sobre 1"></button>
+      <button class="envelope" data-index="1" aria-label="Abrir sobre 2"></button>
+      <button class="envelope" data-index="2" aria-label="Abrir sobre 3"></button>
+      <button class="envelope" data-index="3" aria-label="Abrir sobre 4"></button>
+      <button class="envelope" data-index="4" aria-label="Abrir sobre 5"></button>
+      <button class="envelope" data-index="5" aria-label="Abrir sobre 6"></button>
+      <button class="envelope" data-index="6" aria-label="Abrir sobre 7"></button>
+      <button class="envelope" data-index="7" aria-label="Abrir sobre 8"></button>
+      <button class="envelope" data-index="8" aria-label="Abrir sobre 9"></button>
+      <button class="envelope" data-index="9" aria-label="Abrir sobre 10"></button>
+      <button class="envelope" data-index="10" aria-label="Abrir sobre 11"></button>
+      <button class="envelope" data-index="11" aria-label="Abrir sobre 12"></button>
+    </section>
+  </main>
+
+
+  <div class="modal-overlay hidden" id="modalOverlay" role="dialog" aria-modal="true">
+    <div class="window-box" role="document">
+      <div class="window-titlebar">
+        <span>Missatge especial!</span>
+        <button class="close-button" id="closeButton" aria-label="Cerrar ventana">×</button>
+      </div>
+      <div class="window-content">
+        <h2 id="modalTitle">Hola</h2>
+        <p id="modalMessage"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
