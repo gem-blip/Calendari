@@ -12,7 +12,7 @@ const messages = [
   {
     title: "Dia 3: T'estimo moltissím",
     image: "dia3.gif",
-    text: "Holaa amor, avui és ja el tercer dia d'aquest calendari. Vull que sàpigues que t'estimo moltíssim, i que estic molt agraïda de tindre't a la meva vida. Espero que aquest calendari et faci somriure com ho estic fent jo mentre t'ho escric. Ets la millor persona que conec i cada dia em fas més feliç."
+    text: "Holaa amor, avui és ja el tercer dia d'aquest calendari. Vull que sàpigues que t'estimo moltíssim, i que estic molt agraïda de tindre't a la meva vida. Espero que aquest calendari et fagi somriure com ho estic fent jo mentre t'ho escric. Ets la millor persona que conec i cada dia em fas més feliç, espero que avui tinguis un dia genial amor :)"
   },
   {
     title: "Dia 4: Raons per estimar-te",
